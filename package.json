@@ -1,0 +1,23 @@
+{
+  "name": "elbotnis",
+  "version": "1.0.0",
+  "description": "A fun little Discord bot designed by Ethan.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbongis/Elbotnis.git"
+  },
+  "author": "Ethan Bridgett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbongis/Elbotnis/issues"
+  },
+  "homepage": "https://github.com/Elbongis/Elbotnis#readme",
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "discord.js": "^11.5.1"
+  }
+}
