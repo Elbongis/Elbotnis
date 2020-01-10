@@ -12,7 +12,7 @@ app.on("ready", () => {
 app.on("message", message=> {
     if(message.author.bot) return;
     const guildMember = message.member;
-    if(message.member.roles.find(r => r.name === "The Boys")){
+    if(message.member.roles.find(r => r.name === "The Boys") || (message.member.roles.find(r => r.name === "The New Avengers") || (message.member.roles.find(r => r.name === 'Millwall F.C.')))){
         //yikes chief
         if (message.content.includes("yikes")) {
             message.channel.send("" , {
