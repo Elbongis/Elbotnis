@@ -28,6 +28,16 @@ app.on("message", message=> {
             message.channel.send("WoOoOoOoW");
         }
 
+        if (message.content.includes("actually")) {
+            message.channel.send("Well actually..." , {
+                "embed": {
+                    "image": {
+                        "url": "https://i.imgur.com/tg1x8i1.png",
+                    }
+                }
+            })
+        }
+
         //jason array, things are gonna get messy
         if (message.content.toLowerCase() == "jason") {
             const rando_imgs = [
@@ -47,6 +57,7 @@ app.on("message", message=> {
                 `https://i.imgur.com/0nKoutG.png`,
                 `https://i.imgur.com/RhVhwFW.png`,
                 `https://i.imgur.com/NwyaY4p.png`,
+                `https://i.imgur.com/tg1x8i1.png`,
             ]
             message.channel.send(`Its Jason!`, {
                 file: rando_imgs[Math.floor(Math.random() * rando_imgs.length)]
