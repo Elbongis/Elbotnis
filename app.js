@@ -5,7 +5,7 @@ const fs = require("fs");
 
 app.on("ready", () => {
     console.log("Bot has been activated");
-    app.user.setActivity("use ~~help");
+    app.user.setActivity("use $help");
 });
 
 

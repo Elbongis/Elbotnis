@@ -11,20 +11,24 @@ exports.run = (client, message, args) => {
         "url": "https://imgur.com/lbIHWQA"
       },
     fields: [{
-        name: "~~help",
-        value: "*Displays this message. | Usage: ~~help*"
+        name: "$help",
+        value: "Displays this message. | Usage: $help"
       },
       {
-        name: "~~ping",
-        value: "*Pings the bot. | Usage: ~~ping*"
+        name: "$ping",
+        value: "Pings the bot. | Usage: $ping"
       },
       {
-        name: "~~reload",
-        value: "*Reloads a command. | Usage: ~~reload [command]*"
+        name: "$reload",
+        value: "Reloads a command. | Usage: $reload [command]"
       },
       {
-        name: "~~info",
-        value: "*Gets info on a user. | Usage: ~~info @[user]*"
+        name: "$info",
+        value: "Gets info on a user. | Usage: $info @[user]"
+      },
+      {
+        name: "$minecraft",
+        value: "Shows the current MC IP. | Usage: $minecraft"
       },
     ],
     footer: {
